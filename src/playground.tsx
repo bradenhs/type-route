@@ -59,7 +59,7 @@ function Page(props: { route: Route<typeof routes> }) {
 function Navigation() {
   return (
     <nav>
-      <a {...routes.home.link()}>Home</a>
+      <a {...routes.home.link()}>Home Page</a>
       <a {...routes.userList.link()}>User List</a>
       <a
         {...routes.userList.link({
